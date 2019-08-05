@@ -1,12 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   color: #40514E;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 p {
   line-height: 2;
@@ -36,10 +38,10 @@ h3 {
   text-align: center;
 }
 
-hr {
-  border: dashed #EAF6F6 6px;
+.hori {
+  border: dashed rgb(252, 65, 9) 5px;
   width: 4%;
-  margin: 100px auto;
+  margin: 20px auto 0 auto;
 }
 
 .nav-fixed {
@@ -67,8 +69,11 @@ hr {
 }
 
 .intro-description {
-  width: 25%;
-  margin: auto;
+  width: 26%;
+  margin:auto;
+  text-align: center;
+   
+
 }
 
 .brand-pic {
@@ -103,7 +108,7 @@ hr {
 }
 
 .my-skills {
-  padding: 100px 0 30px 0;
+  padding: 100px 0 0 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 }
@@ -151,6 +156,7 @@ hr {
 .contact-message {
   width: 30%;
   margin: 30px auto 50px auto;
+  text-align: center;
 }
 
 .copyright {
@@ -176,7 +182,7 @@ hr {
 .mountain {
   display: block;
   margin: 0 auto 0 auto;
-  -webkit-animation: mountain-slide 2s 1;
+  -webkit-animation: mountain-slide 1.5s 1;
   -webkit-animation-timing-function: ease-in-out;
 }
 
@@ -210,7 +216,7 @@ hr {
 
 @-webkit-keyframes mountain-slide{
   0%{
-    transform: translate(0, 500px);
+    transform: translate(0, 250px);
   }
 
   100%{
