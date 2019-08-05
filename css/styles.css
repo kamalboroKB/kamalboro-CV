@@ -7,6 +7,7 @@ body {
   color: #40514E;
   text-align: center;
   font-family: 'Merriweather', serif;
+  z-index: initial;
 }
 
 
@@ -104,7 +105,10 @@ h3 {
 }
 
 .middle-container {
+  position: relative;
+  background-color: white;
   padding: 100px 0;
+  z-index:2;
 }
 
 .my-skills {
@@ -181,6 +185,8 @@ h3 {
 
 .mountain {
   display: block;
+  position: relative;
+  z-index: 1;
   margin: 0 auto 0 auto;
   -webkit-animation: mountain-slide 1.5s 1;
   -webkit-animation-timing-function: ease-in-out;
